@@ -6,6 +6,7 @@ public class Main {
                 new AreaCalculator();
         Circle circle = new Circle(10);
         Square square = new Square(10);
+        Cube cube = new Cube();
         ShapesPrinter printer = new ShapesPrinter();
         List<Shape> shapes = List.of(circle, square);
         int sum = areaCalculator.sum(shapes);

@@ -6,4 +6,17 @@ with excessive functionality (ShapesPrinter only prints)
 
 Open Closed
 Classes should be open for extension, closed for
-modification.
+modification. (moved logic of area to shape interface)
+
+Liskov Substitution
+Every subclass or derived class should be substitutable for
+their parent class (NoShape does not correctly use shape
+interface, and so breaks Liskov S)
+
+Interface Segregation
+Interfaces should not force classes to implement what they
+can't do. (ThreeD interface initiated and applied to cube so
+ that volume can be calculated with this and not applied to
+ square or circle)
+
+ Dependency Inversion
