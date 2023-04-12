@@ -1,0 +1,9 @@
+SOLID PRINCIPLES
+
+Single Responsibility
+Each class should have only one purpose, and not be filled
+with excessive functionality (ShapesPrinter only prints)
+
+Open Closed
+Classes should be open for extension, closed for
+modification.
